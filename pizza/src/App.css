@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  background-color: wheat;
+}
+
+body{
+  background-color: wheat;
+}
+
+
+.pizza-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 10px;
+}
+
+.pizza-container{
+  height: 380px;
+  width: 320px;
+  border-bottom: 1px solid blue;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.pizza-container:hover{
+  transform-origin: top;
+  transform: scale(101%);
+}
+
+.pizza{
+  margin-top: 15px;
+  width: 300px;
+  height: 270px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.navication{
+  display: flex;
+  position: relative;
+  width: auto;
+  height: 80px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: rgba(26, 248, 56, 0.925);
+}
+
+.app-name{
+  font-size: 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:bold;
+  position: absolute;
+  color: rgb(10, 91, 241);
+  left: 8%;
+}
+
+.name-clr{
+  color: rgb(226, 116, 43);
+}
+.app-bar{
+  display: flex;
+  position: absolute;
+  right: 0%;
+  margin: 5px;
+  font-size: 25px;
+  /* border: 1px solid red; */
+  width: 50%;
+  justify-content: center;
+  color: rgb(228, 38, 245);
+  gap: 20px;
+}
+.n-bar{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgb(41, 3, 129);
+}
+.n-bar:hover{
+  text-decoration:underline;
+}
